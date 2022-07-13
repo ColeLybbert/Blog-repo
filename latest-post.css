@@ -1,0 +1,76 @@
+.post-flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.subscribe {
+    background-color: #444;
+    width: 20%;
+    height: 100%;
+    padding: 2% 0;
+    color: white;
+    border: none;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    border-radius: 10%;
+}
+
+.subscribe:hover {
+    background-color: rgb(58, 58, 255);
+}
+
+.blog{
+    color: blue;
+}
+
+.blog:hover {
+    text-decoration: underline;
+}
+
+.blog:visited {
+    color: purple;
+}
+
+.social {
+    width: 10%;
+    height: 100%;
+    border-radius: 20%;
+    margin: 1%;
+}
+
+.me {
+    width: 5rem;
+    height: 7rem;
+    border-radius: 30%;
+    margin:  10% 45% 1% 45%;
+    padding: none;
+}
+
+h1 {
+    margin: 3% 35%;
+}
+
+p{
+    width: 90%;
+}
+
+@media (max-width: 320px) {
+    p {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 900px) {
+    p {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 901px) {
+    p {
+        font-size: 40px;
+    }
+}
