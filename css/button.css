@@ -1,0 +1,22 @@
+button {
+    background-color: #444;
+    color: white;
+    border: none;
+}
+
+.post-btn {
+    width: 30%;
+    height: 10%;
+    margin: auto;
+}
+
+button:hover {
+    background-color: rgb(58, 58, 255);
+}
+
+.subscribe {
+    background-color: #444;
+    width: 20%;
+    height: 30%;
+    margin: 2rem 40%;
+}

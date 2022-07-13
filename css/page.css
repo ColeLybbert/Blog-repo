@@ -1,0 +1,20 @@
+body {
+    background-color: #f8f8ff;
+}
+
+.name{
+    color: blue;
+}
+
+.name:hover {
+    text-decoration: underline;
+}
+
+.name:visited {
+    color: purple;
+}
+
+h1 {
+    width: 100%;
+    text-decoration: underline;
+}
